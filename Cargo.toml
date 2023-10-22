@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = ["ivsort"]
+default-members = ["ivsort"]
+
+[workspace.package]
+edition = "2021"
+authors = ["DOCtorActoAntohich"]
+version = "0.1.0"

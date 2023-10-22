@@ -1,0 +1,10 @@
+[package]
+name = "ivsort"
+default-run = "ivsort"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]
+syn = { version = "2.0.38", features = ["full"] }
+quote = "1.0.33"
